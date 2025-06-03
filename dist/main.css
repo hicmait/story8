@@ -1,1 +1,29 @@
-._button_djmih_1{border:none;color:#fff;text-align:center;text-decoration:none;display:inline-block;font-size:20px;border-radius:4px;cursor:pointer;min-width:230px;height:40px}._primary_djmih_14{background:#18a0fb}._secondary_djmih_18{background:#e7e7e7}._success_djmih_22{background:#4caf50}._danger_djmih_26{background:#f44336}
+.IW8jYa_button {
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  min-width: 230px;
+  height: 40px;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.IW8jYa_primary {
+  background: #18a0fb;
+}
+
+.IW8jYa_secondary {
+  background: #e7e7e7;
+}
+
+.IW8jYa_success {
+  background: #4caf50;
+}
+
+.IW8jYa_danger {
+  background: #f44336;
+}
+/*# sourceMappingURL=main.css.map */
