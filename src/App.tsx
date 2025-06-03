@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <UaButton variant="danger">sdfmlsdf</UaButton>
+      <UaButton variant="danger" label="sdfmlsdf" />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
