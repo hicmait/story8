@@ -1,21 +1,11 @@
 import { UaButton } from "./UaButton";
-// import { withKnobs } from "storybook/addon-knobs";
-// import StoryRouter from "storybook-react-router";
-
-// export default {
-//   title: "UaButton",
-//   component: UaButton,
-//   decorators: [(Story) => <div style={{ padding: "3rem" }}>{Story()}</div>],
-// };
-
-// export const Primary = () => <UaButton variant="primary" children="Primary" />;
-// export const Secondary = () => (
-//   <UaButton variant="secondary" children="Secondary" />
-// );
+// import { UaButton } from "../../../dist/main.js";
+// import "../../../dist/main.css";
 
 export default {
   component: UaButton,
   title: "UaButton",
+  decorators: [(Story) => <div style={{ padding: "3rem" }}>{Story()}</div>],
 };
 
 export const Primary = {
@@ -24,3 +14,4 @@ export const Primary = {
     children: "Mon bouton",
   },
 };
+export const Danger = () => <UaButton variant="danger">Erreur</UaButton>;
