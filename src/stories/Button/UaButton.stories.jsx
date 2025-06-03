@@ -1,6 +1,4 @@
 import { UaButton } from "./UaButton";
-// import { UaButton } from "../../../dist/main.js";
-// import "../../../dist/main.css";
 
 export default {
   component: UaButton,
@@ -11,7 +9,7 @@ export default {
 export const Primary = {
   args: {
     variant: "primary",
-    children: "Mon bouton",
+    label: "Mon bouton",
   },
 };
-export const Danger = () => <UaButton variant="danger">Erreur</UaButton>;
+export const Danger = () => <UaButton variant="danger" label="mon bouton" />;

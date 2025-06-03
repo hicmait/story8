@@ -1,9 +1,7 @@
 import styles from "./UaButton.module.scss";
 
-export const UaButton = ({ variant = "primary", children }) => {
+export const UaButton = ({ variant = "primary", label = "" }) => {
   return (
-    <button className={`${styles.button} ${styles[variant]}`}>
-      {children}
-    </button>
+    <button className={`${styles.button} ${styles[variant]}`}>{label}</button>
   );
 };
