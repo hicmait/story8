@@ -1,2 +1,2 @@
-export * from "../stories/Button";
-export * from "../stories/Header";
+export { UaButton } from "../stories/Button/UaButton";
+// export { Header } from "../stories/Header";
