@@ -18,7 +18,7 @@ export default defineConfig({
       fileName: "main",
     },
     rollupOptions: {
-      external: ["react", "react/jsx-runtime"],
+      external: ["react"],
     },
   },
 });
