@@ -4,11 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "main": "dist/main.js",
-  "source": "src/lib/main.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "pacel-build": "parcel build",
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
@@ -21,7 +19,6 @@
   "devDependencies": {
     "@chromatic-com/storybook": "^4.0.0",
     "@eslint/js": "^9.25.0",
-    "@parcel/transformer-sass": "^2.15.2",
     "@storybook/addon-a11y": "^9.0.3",
     "@storybook/addon-docs": "^9.0.3",
     "@storybook/addon-onboarding": "^9.0.3",
@@ -38,7 +35,6 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "eslint-plugin-storybook": "^9.0.3",
     "globals": "^16.0.0",
-    "parcel": "^2.15.2",
     "playwright": "^1.52.0",
     "sass-embedded": "^1.89.1",
     "storybook": "^9.0.3",
