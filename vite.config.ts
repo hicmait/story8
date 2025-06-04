@@ -10,11 +10,15 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 export default defineConfig({
   plugins: [react()],
   build: {
+    copyPublicDir: false,
     lib: {
       entry: resolve(__dirname, "src/lib/main.js"),
       name: "tamtam-new",
       // the proper extensions will be added
       fileName: "main",
+    },
+    rollupOptions: {
+      external: ["react", "react/jsx-runtime"],
     },
   },
 });
