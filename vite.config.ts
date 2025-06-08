@@ -8,24 +8,24 @@ import react from "@vitejs/plugin-react";
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react({ jsxRuntime: "classic" })],
   build: {
     copyPublicDir: false,
     lib: {
       entry: resolve(__dirname, "src/lib/main.js"),
-      formats: ["es", "umd"],
+      formats: ["es"],
       name: "tamtam-new",
       // the proper extensions will be added
       fileName: "main",
     },
     rollupOptions: {
       external: ["react", "react-dom"],
-      output: {
-        globals: {
-          react: "react",
-          "react-dom": "ReactDOM",
-        },
-      },
+      // output: {
+      //   globals: {
+      //     react: "react",
+      //     "react-dom": "ReactDOM",
+      //   },
+      // },
     },
   },
 });
