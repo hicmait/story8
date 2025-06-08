@@ -19,12 +19,11 @@ export default defineConfig({
       fileName: "main",
     },
     rollupOptions: {
-      external: ["react", "react/jsx-runtime", "react-dom"],
+      external: ["react", "react-dom"],
       output: {
         globals: {
           react: "react",
           "react-dom": "ReactDOM",
-          "react/jsx-runtime": "react/jsx-runtime",
         },
       },
     },
