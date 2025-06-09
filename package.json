@@ -6,18 +6,14 @@
   "main": "./dist/main.umd.cjs",
   "module": "./dist/main.js",
   "files": [
-    "dist",
-    "./main.css"
+    "dist"
   ],
   "exports": {
     ".": {
       "import": "./dist/main.js",
       "require": "./dist/main.umd.cjs"
     },
-    "./dist/main.css": {
-      "import": "./dist/main.css",
-      "require": "./dist/main.css"
-    }
+    "./main.css": "./dist/main.css"
   },
   "scripts": {
     "dev": "vite",
