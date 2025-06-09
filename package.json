@@ -9,8 +9,7 @@
     ".": {
       "import": "./dist/main.js",
       "require": "./dist/main.umd.cjs"
-    },
-    "./style.css": "./dist/main.css"
+    }
   },
   "scripts": {
     "dev": "vite",
