@@ -1,10 +1,11 @@
-const c = "_button_djmih_1", e = "_primary_djmih_14", r = "_secondary_djmih_18", o = "_success_djmih_22", a = "_danger_djmih_26", t = {
-  button: c,
-  primary: e,
-  secondary: r,
-  success: o,
+import { jsx as r } from "react/jsx-runtime";
+const o = "_button_djmih_1", c = "_primary_djmih_14", _ = "_secondary_djmih_18", e = "_success_djmih_22", a = "_danger_djmih_26", s = {
+  button: o,
+  primary: c,
+  secondary: _,
+  success: e,
   danger: a
-}, _ = ({ variant: s = "primary", label: n = "" }) => /* @__PURE__ */ React.createElement("button", { className: `${t.button} ${t[s]}` }, n);
+}, m = ({ variant: t = "primary", label: n = "" }) => /* @__PURE__ */ r("button", { className: `${s.button} ${s[t]}`, children: n });
 export {
-  _ as UaButton
+  m as UaButton
 };

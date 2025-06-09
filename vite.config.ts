@@ -8,7 +8,7 @@ import react from "@vitejs/plugin-react";
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react({ jsxRuntime: "classic" })],
+  plugins: [react()],
   build: {
     copyPublicDir: false,
     lib: {
@@ -19,13 +19,7 @@ export default defineConfig({
       fileName: "main",
     },
     rollupOptions: {
-      external: ["react", "react-dom"],
-      // output: {
-      //   globals: {
-      //     react: "react",
-      //     "react-dom": "ReactDOM",
-      //   },
-      // },
+      external: ["react", "react-dom", "react/jsx-runtime"],
     },
   },
 });
