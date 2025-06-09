@@ -5,6 +5,7 @@ import viteLogo from "/vite.svg";
 // import { UaButton } from "./stories/Button/UaButton";
 import { UaButton } from "../dist/main";
 // import { UaButton } from "tamtam-new";
+import "tamtam-new/dist/main.css";
 // import "../dist/main.css";
 
 import "./App.css";
