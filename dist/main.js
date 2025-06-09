@@ -1,5 +1,5 @@
 import { jsx as r } from "react/jsx-runtime";
-import './main.css';const o = "_button_djmih_1", c = "_primary_djmih_14", _ = "_secondary_djmih_18", e = "_success_djmih_22", a = "_danger_djmih_26", s = {
+const o = "_button_djmih_1", c = "_primary_djmih_14", _ = "_secondary_djmih_18", e = "_success_djmih_22", a = "_danger_djmih_26", s = {
   button: o,
   primary: c,
   secondary: _,
